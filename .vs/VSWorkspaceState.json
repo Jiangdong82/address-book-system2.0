@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\address_book_backend",
+    "\\address_book_frontend",
+    "\\address_book_frontend\\src",
+    "\\address_book_frontend\\src\\api",
+    "\\address_book_frontend\\src\\components",
+    "\\address_book_frontend\\src\\router"
+  ],
+  "SelectedNode": "\\address_book_backend\\config.py",
+  "PreviewInSolutionExplorer": false
+}

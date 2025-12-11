@@ -1,4 +1,4 @@
-﻿<!-- src/components/GroupManager.vue -->
+<!-- src/components/GroupManager.vue -->
 <template>
   <div class="group-manager card" style="max-width: 600px; margin: 0 auto;">
     <h2 class="title mb-20" style="color: #333; font-size: 18px;">分组管理</h2>

@@ -1,26 +1,24 @@
-﻿<!-- src/App.vue -->
+<!-- src/App.vue -->
 <template>
   <div class="app-container">
-    <!-- 导航栏（原有样式保留） -->
+    <!-- 导航栏 -->
     <header class="navbar">
       <div class="container flex-between">
-        <h1 class="logo gradient-text">📖 通讯录管理系统</h1> <!-- 新增渐变文字 -->
+        <h1 class="logo">📖 通讯录管理系统</h1>
         <nav class="nav-menu flex-gap">
           <router-link to="/" class="nav-item" :class="{ active: $route.path === '/' }">联系人列表</router-link>
           <router-link to="/groups" class="nav-item" :class="{ active: $route.path === '/groups' }">分组管理</router-link>
-          <router-link to="/add-contact" class="nav-item btn gradient-btn">添加联系人</router-link> <!-- 替换为渐变按钮 -->
+          <router-link to="/add-contact" class="nav-item btn btn-primary">添加联系人</router-link>
         </nav>
       </div>
     </header>
 
-    <!-- 路由出口：添加过渡动画 -->
+    <!-- 路由出口 -->
     <main class="main-content container">
-      <transition name="fade">
-        <router-view />
-      </transition>
+      <router-view />
     </main>
 
-    <!-- 页脚（原有样式保留） -->
+    <!-- 页脚（可选） -->
     <footer class="footer text-center">
       <p>© 2025 通讯录管理系统 | 设计与开发</p>
     </footer>

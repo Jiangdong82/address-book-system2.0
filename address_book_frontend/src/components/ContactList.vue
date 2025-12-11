@@ -1,4 +1,4 @@
-﻿<!-- src/components/ContactList.vue -->
+<!-- src/components/ContactList.vue -->
 <template>
   <div class="contact-list card">
     <!-- 头部筛选和操作区 -->

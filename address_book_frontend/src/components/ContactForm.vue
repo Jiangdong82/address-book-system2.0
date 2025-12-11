@@ -1,4 +1,4 @@
-﻿<!-- src/components/ContactForm.vue -->
+<!-- src/components/ContactForm.vue -->
 <template>
   <div class="contact-form card" style="max-width: 800px; margin: 0 auto;">
     <h2 class="form-title mb-20" style="color: #333; font-size: 18px;">{{ isEdit ? '编辑联系人' : '添加新联系人' }}</h2>

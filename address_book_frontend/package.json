@@ -1,7 +1,7 @@
 {
-  "name": "address_book_frontend",
+  "name": "address-book-frontend",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,12 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "axios": "^1.13.1",
-    "vue": "^3.5.22",
-    "vue-router": "^4.6.3"
+    "axios": "^1.6.8",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.1",
-    "vite": "^7.1.7"
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
   }
 }
